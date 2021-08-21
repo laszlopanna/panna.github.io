@@ -1,0 +1,301 @@
+.nav{
+    width: 22%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: verdana;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    line-height: 90px;
+    text-align: center;   
+    transition: 600ms;
+}
+.nav a:hover{
+    background-color:powderblue;
+    color: black;
+    width: 100%;
+}
+.content{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 70%;
+}
+.home{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: verdana;  
+    text-transform: uppercase;
+}
+.home h1{
+    font-size: 55px;
+    padding-right: 40px;
+    border-bottom: 3px solid white;
+}
+.home h3{
+    font-size: 30px;
+    color: gold;  
+}
+.home h6{
+    font-size: 25px;
+    font-family: monospace;
+}
+.felso{
+    width:100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    opacity: 0.6;
+    
+}
+.resz{
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: monospace;  
+}
+.rolam{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    top: 80px;
+    font-family: century gothic; 
+}
+.szoveg{
+   position: absolute;
+   left: 0;
+   top: 40px;
+   width: 90%;
+   height: 100%;
+   color: white;
+   font-family: century gothic;  
+   font-size: 24px;
+}
+.galeria{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color:rd; 
+    right: -10%;
+    top: 120px;
+    font-family: century gothic; 
+}
+.kepek{
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   top: 20px;
+   width: 100%;
+   height: 100%;
+}
+.kepek img{
+     width: 200px;
+    height: 300px;
+    transition: all ease 0.5s;   
+}
+.kepek img:hover{
+    transform: scale(1.5);   
+}
+.elerhetoseg{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 35%;
+    top:65%;
+    border-radius: 25%;
+    text-align: center;
+    transition: all ease 0.5s;    
+}
+.ikonok{
+    margin: 45px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 15px; 
+    transition: all ease 0.5s;  
+}
+.elerhetoseg :hover{
+    transform: scale(1.3); 
+}
+.elerhetoseg2{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    right: 19%;
+    top:65%;
+    border-radius: 25%;
+    text-align: center;
+    transition: all ease 0.5s;  
+}
+.ikonok2{
+    margin: 50px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: all ease 0.5s;  
+}
+.elerhetoseg2 :hover{
+    transform: scale(1.3); 
+}
+.elerhetoseg3{
+    width: 180px;
+    height: 180px;
+    background-color:black;
+    position: absolute;
+    right: 3%;
+    top:65%;
+    border-radius: 25%;
+    text-align: center;
+    transition: all ease 0.5s;  
+}
+.ikonok3{
+    margin: 50px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: all ease 0.5s;  
+}
+.elerhetoseg3 :hover{
+    transform: scale(1.3);
+}
+    
+    
+@media only screen and (max-width: 768px){
+    
+    .nav a{
+        font-size: 10px;
+        width: auto;
+        height: 60px;
+        line-height: 60px;
+        padding: 0 15px;
+        margin: 2px 2px;     
+    }
+    .nav a:hover{
+        width: auto;
+    }
+    .nav{
+        width: 100%;
+        top: 50px;
+        z-index: 99;
+    }
+    .home h1{
+        font-size: 50px;
+        padding-right: 0;
+    }
+    .home h3{
+        font-size: 18px;
+    }
+    .home h6{
+        font-size: 14px;
+    }
+    .content{
+        width: 100%;
+        height: 70%;
+        min-height: inherit;
+        top: 350px;
+    }
+    .rolam{
+        width: 80%;
+        margin 0 auto;
+        padding: 100px 0px 0;
+        top 0;
+        left: 10%;  
+    }
+    .szoveg{
+        top: 30px;
+    }
+    .galeria{
+        width: 90%
+        margin 0 auto;
+        padding: 100px 0px 0;
+        top 100px;
+        left: 21%;   
+    }
+    .kepek{
+        top: 74px;
+    }
+    .elerhetoseg{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    right: 50%;
+    top:20%;
+    border-radius: 25%;
+    text-align: center;
+    }
+    .ikonok{
+    margin: 38px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 14px;     
+    }
+    .elerhetoseg2{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    right: 50%;
+    top:48%;
+    border-radius: 25%;
+    text-align: center;
+    }
+    .ikonok2{
+    margin: 38px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 17px;     
+    }
+    .elerhetoseg3{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    right: 50%;
+    top:76%;
+    border-radius: 25%;
+    text-align: center;
+    }
+    .ikonok3{
+    margin: 38px 0px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 17px;     
+    }
+    
+    
+    
+   
+    
+
+	
